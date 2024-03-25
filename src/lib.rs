@@ -1,11 +1,7 @@
-#![deny(missing_docs)]
-
-//! This crate is a work in progress.
-
 mod address;
 mod condition;
-mod signer;
 mod spends;
+mod sqlite;
 mod ssl;
 mod stores;
 mod utils;
@@ -13,8 +9,8 @@ mod wallet;
 
 pub use address::*;
 pub use condition::*;
-pub use signer::*;
 pub use spends::*;
+pub use sqlite::*;
 pub use ssl::*;
 pub use stores::*;
 pub use wallet::*;

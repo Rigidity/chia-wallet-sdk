@@ -1,1 +1,7 @@
 /target
+*.sqlite
+*.sqlite-wal
+*.sqlite-shm
+*.crt
+*.key
+.env
